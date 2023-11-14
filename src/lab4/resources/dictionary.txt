@@ -1,12 +1,13 @@
 solid | твердый
-somebody | кто-то
+out of date | устаревший
+something | что-то
 rely | полагаться
 just | просто
+they | они
 mapping | отображение
 just | просто
 out of | снаружи
-out of date | устаревший
-massive | большой
+a massive | большой
 a lot | много
 in | в
 comprehend | постигать
@@ -19,14 +20,16 @@ performance | производительность
 suboptimal | неоптимальный
 spill over | перетекать
 spill the beans | раскрыть секрет
-spill | проливать
+spill | пролить
 oil spill | разлив нефти
 oil | масло
-you | вы
+he | он
+very | очень
+easy | легко
 fetch | получать
+into | в
 excessively | чрезмерно
 conflict | конфликт
 might | может
-from here | отсюда
 from | от
 talk | говорить
