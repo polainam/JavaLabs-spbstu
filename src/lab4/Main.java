@@ -1,12 +1,10 @@
 package lab4;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import static java.io.File.separator;
 
@@ -18,41 +16,40 @@ public class Main {
     //Должно все переводится без изменения исх кода
     //обработать исключения + создать свои
 
+    public static final String DELIMITER = "[\\s,\\.\\n]";
+    public static final String DELIMITER_FOR_DICTIONARY = "[\\s*\\|\\s*]";
+
     public static void main(String[] args) throws IOException { //исправить
         Map<String, String> map = new HashMap<>();
         File file = new File("src" + separator + "lab4" + separator + "resources" + separator + "dictionary.txt");
         fillDictionary(map, file);
 
-        file = new File("src" + separator + "lab4" + separator + "resources" + separator + "input.txt");
+        file = new File("src" + separator + "lab4" + separator + "resources" + separator + "input2.txt");
         translate(map, file);
     }
 
     public static void fillDictionary(Map<String, String> map, File file) throws IOException {
-        FileReader reader = new FileReader(file);
-        int c;
-        while ((c = reader.read()) != -1) {
-            char symbol = (char) c;
-            StringBuilder key = new StringBuilder();
-            key.append(symbol);
-            StringBuilder value = new StringBuilder();
-            while ((symbol = (char) reader.read()) != '|') {
-                key.append(symbol);
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(DELIMITER_FOR_DICTIONARY);
+                if (parts.length == 2) {
+                    map.put(parts[0], parts[1]);
+                }
             }
-            key.deleteCharAt(key.length() - 1); //исправить
-            reader.read();
-            while ((symbol = (char) reader.read()) != '\n') {
-                value.append(symbol);
-            }
-            map.put(key.toString(), value.toString());
         }
     }
 
     public static void translate(Map<String, String> map, File file) throws FileNotFoundException { //исправить
         Scanner scanner = new Scanner(file);
+        Pattern pattern = Pattern.compile(DELIMITER);
+        scanner.useDelimiter(pattern);
+
         String tempWord, word;
-        while (scanner.hasNextLine()) {
-            word = scanner.nextLine();
+        while (scanner.hasNext()) {
+            word = scanner.next();
             tempWord = word.toLowerCase();
+
             System.out.println(map.getOrDefault(tempWord, word));
         }
     }
