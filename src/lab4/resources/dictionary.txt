@@ -1,35 +1,26 @@
-solid | твердый
-out of date | устаревший
-something | что-то
-rely | полагаться
-just | просто
-they | они
-mapping | отображение
-just | просто
-out of | снаружи
-a massive | большой
-a lot | много
-in | в
-comprehend | постигать
-grasp | понять
-if | если
-inefficient | неэффективный
-there | здесь
-was | был
-performance | производительность
-suboptimal | неоптимальный
-spill over | перетекать
+look | выглядеть
+look forward | смотреть в будущее
+look forward to | предвкушать
+forward | вперед
+and | и
+this | этот
+film | фильм
+we | мы
+cooperation | сотрудничество
+now | сейчас
 spill the beans | раскрыть секрет
+spill over | перетекать
 spill | пролить
 oil spill | разлив нефти
 oil | масло
-he | он
-very | очень
-easy | легко
-fetch | получать
-into | в
-excessively | чрезмерно
+there | здесь
+from here | отсюда
+here | здесь
+a massive | большой
+in | в
 conflict | конфликт
+into | в
 might | может
-from | от
-talk | говорить
+excessively | чрезмерно
+solid | твердый
+
