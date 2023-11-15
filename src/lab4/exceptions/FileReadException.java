@@ -1,4 +1,12 @@
 package lab4.exceptions;
 
-public class FileReadException {
+import java.io.IOException;
+
+public class FileReadException extends IOException {
+    public FileReadException() {
+    }
+
+    public FileReadException(String message) {
+        super(message);
+    }
 }

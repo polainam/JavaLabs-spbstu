@@ -1,5 +1,7 @@
 package lab4;
 
+import lab4.exceptions.FileReadException;
+
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.*;
@@ -11,12 +13,14 @@ public class Translator {
         this.map = map;
     }
 
-    public void translate(Path filePath) throws IOException {
+    public void translate(Path filePath) throws FileReadException {
         try (Scanner scanner = new Scanner(filePath)) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 processLine(line);
             }
+        } catch (IOException e) {
+            throw new FileReadException(e.getMessage());
         }
     }
 
