@@ -63,8 +63,8 @@ public class Translator {
 
     private String findMatchedTranslation(String line, List<String> translationOptions) {
         for (String translationOption : translationOptions) {
-            if (line.startsWith(translationOption.toLowerCase())) {
-                return translationOption.toLowerCase();
+            if (line.startsWith(translationOption)) {
+                return translationOption;
             }
         }
         return "";

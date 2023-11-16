@@ -30,6 +30,10 @@ public class Main {
             translator.translate(inputFilePath);
         } catch (FileReadException e) {
             System.err.println(e.getMessage());
+            Throwable cause = e.getCause();
+            if (cause instanceof IOException) {
+                System.err.println(cause.getMessage());
+            }
         } catch (InvalidFileFormatException e) {
             System.err.println("Error filling dictionary at line " + e.getLineNumber() + ": " + e.getMessage());
             System.out.println("The file must comply with the format: word or expression | translation");
