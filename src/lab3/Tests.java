@@ -53,7 +53,7 @@ public class Tests {
         print(predatoryList);
     }
 
-    public static void secondTest() {
+    /*public static void secondTest() {
 
         List<Predatory> predatoryList = new ArrayList<>();
 
@@ -106,5 +106,5 @@ public class Tests {
         System.out.println("Хищные:");
         print(predatoryList1);
     }
-
+*/
 }

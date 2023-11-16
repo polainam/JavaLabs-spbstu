@@ -12,7 +12,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
-        Translator translator = new Translator(map);
 
         Path dictionaryPath = Paths.get("src", "lab4", "resources", "dictionary.txt");
         Path inputFilePath = Paths.get("src", "lab4", "resources", "input.txt");
@@ -23,6 +22,7 @@ public class Main {
             }
 
             fillDictionary(map, dictionaryPath);
+            Translator translator = new Translator(map);
 
             if (!Files.exists(inputFilePath)) {
                 throw new FileReadException("There is no input file at this path: " + inputFilePath);
@@ -30,9 +30,10 @@ public class Main {
             translator.translate(inputFilePath);
         } catch (FileReadException e) {
             System.err.println(e.getMessage());
+            System.err.println(e.getClass());
             Throwable cause = e.getCause();
             if (cause instanceof IOException) {
-                System.err.println(cause.getMessage());
+                System.err.println(cause.getClass());
             }
         } catch (InvalidFileFormatException e) {
             System.err.println("Error filling dictionary at line " + e.getLineNumber() + ": " + e.getMessage());
