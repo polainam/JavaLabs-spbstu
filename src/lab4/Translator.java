@@ -20,7 +20,7 @@ public class Translator {
                 processLine(line);
             }
         } catch (IOException e) {
-            throw new FileReadException(e.getMessage());
+            throw new FileReadException(e.getMessage(), e);
         }
     }
 

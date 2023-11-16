@@ -51,7 +51,7 @@ public class Main {
                 }
             }
         } catch (IOException e) {
-            throw new FileReadException(e.getMessage());
+            throw new FileReadException(e.getMessage(), e);
         }
     }
 }
