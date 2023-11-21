@@ -17,22 +17,14 @@ public class Main {
         Path inputFilePath = Paths.get("src", "lab4", "resources", "input.txt");
 
         try {
-            if (!Files.exists(dictionaryPath)) {
-                throw new FileReadException("The dictionary file at this path does not exist: " + dictionaryPath);
-            }
-
             fillDictionary(map, dictionaryPath);
             Translator translator = new Translator(map);
-
-            if (!Files.exists(inputFilePath)) {
-                throw new FileReadException("There is no input file at this path: " + inputFilePath);
-            }
             translator.translate(inputFilePath);
         } catch (FileReadException e) {
             System.err.println(e.getMessage());
             System.err.println(e.getClass());
             Throwable cause = e.getCause();
-            if (cause instanceof IOException) {
+            if (cause != null) {
                 System.err.println(cause.getClass());
             }
         } catch (InvalidFileFormatException e) {

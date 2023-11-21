@@ -57,7 +57,12 @@ public class Translator {
                 translationOptions.add(str);
             }
         }
-        translationOptions.sort(Comparator.comparingInt(String::length).reversed());
+        translationOptions.sort(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.length() - o1.length();
+            }
+        });
         return translationOptions;
     }
 
