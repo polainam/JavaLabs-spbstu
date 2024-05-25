@@ -8,9 +8,9 @@ public class AbstractProgram extends Thread {
 
     public static final Object mutex = new Object();
     private Status status = Status.UNKNOWN;
-    private final Thread daemonThread = new Thread(new DaemonTaskImpl());
+    private final Thread daemonThread = new Thread(new DemonTaskImpl());
 
-    private class DaemonTaskImpl implements Runnable {
+    private class DemonTaskImpl implements Runnable {
 
         private final List<Status> statuses = new ArrayList<>(List.of(Status.RUNNING, Status.STOPPING, Status.FATAL_ERROR));
 
@@ -33,6 +33,7 @@ public class AbstractProgram extends Thread {
 
     @Override
     public void run() {
+
         daemonThread.setDaemon(true);
         daemonThread.start();
     }
