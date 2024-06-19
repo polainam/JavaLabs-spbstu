@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d5c4ec1-d5a2-436f-b341-35a07b7cf434" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/lab8/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/lab8/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/lab8/MyThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/lab8/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/Hero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/FlightImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/HorsebackRidingImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/MovementStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/RunImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/StayImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab1/strategies/StepImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab2/Annotations/ParameterNamesAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab2/Annotations/RepeatingAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab2/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/Segregation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/Tests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/Animals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/classes/Mammals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/families/Feline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/families/Hedgehog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/kinds/CommonHedgehog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/kinds/Lynx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/kinds/Manul.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/squads/Insectivores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/squads/Predatory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab3/animals/types/Chordate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/Translator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/Translator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/exceptions/FileReadException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/exceptions/InvalidFileFormatException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/resources/dictionary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab4/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab5/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab5/Methods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab6/ConsumerNameThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab6/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab6/ProducerNameThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/AbstractProgram$DemonTaskImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/AbstractProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/SupervisorTaskImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab7/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab8/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab8/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab8/MyThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/labs-polytech/lab8/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab6/ConsumerNameThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab6/ProducerNameThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/MyThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/Producer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2XATCKgLQbtfXB2Bnepog8Blpqk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/jdk-21&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1367816&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Polaina\IdeaProjects\labs-polytech\src\lab4\resources" />
+      <recent name="C:\Users\Polaina\IdeaProjects\labs-polytech\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab7.Main" />
+      <module name="labs-polytech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d5c4ec1-d5a2-436f-b341-35a07b7cf434" name="Changes" comment="" />
+      <created>1698070758854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698070758854</updated>
+      <workItem from="1698070760457" duration="1252000" />
+      <workItem from="1699187523236" duration="15462000" />
+      <workItem from="1699513944906" duration="17000" />
+      <workItem from="1699958323065" duration="64220000" />
+      <workItem from="1700119765251" duration="15453000" />
+      <workItem from="1700399123437" duration="25338000" />
+      <workItem from="1700557202044" duration="5000" />
+      <workItem from="1701190590920" duration="6405000" />
+      <workItem from="1701515636547" duration="56463000" />
+      <workItem from="1701818041206" duration="13000" />
+      <workItem from="1701818390802" duration="139000" />
+      <workItem from="1711326940713" duration="46000" />
+      <workItem from="1716477575835" duration="39618000" />
+      <workItem from="1716619946037" duration="10346000" />
+      <workItem from="1717690141122" duration="31000" />
+      <workItem from="1717743844996" duration="133000" />
+      <workItem from="1717774517776" duration="9000" />
+      <workItem from="1718475735615" duration="28554000" />
+      <workItem from="1718608978651" duration="1690000" />
+      <workItem from="1718610707285" duration="2110000" />
+      <workItem from="1718617710754" duration="163000" />
+      <workItem from="1718617894875" duration="531000" />
+      <workItem from="1718618498347" duration="222000" />
+      <workItem from="1718618903849" duration="209000" />
+      <workItem from="1718619466731" duration="104000" />
+      <workItem from="1718636071866" duration="1430000" />
+      <workItem from="1718637526237" duration="45000" />
+      <workItem from="1718821086709" duration="1079000" />
+      <workItem from="1718822343121" duration="568000" />
+      <workItem from="1718822931891" duration="1872000" />
+      <workItem from="1718826147065" duration="1043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

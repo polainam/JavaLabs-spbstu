@@ -1,6 +1,6 @@
-package lab7;
+package lab6;
 
-import static lab7.AbstractProgram.mutex;
+import static lab6.AbstractProgram.mutex;
 
 public class SupervisorTaskImpl implements Runnable {
 
